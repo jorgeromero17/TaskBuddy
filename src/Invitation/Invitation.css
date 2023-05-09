@@ -1,0 +1,32 @@
+/* clear background */
+h3 {
+  color: #d103fc;
+  text-align: center;
+  padding: 16px;
+  margin: 0;
+  margin-top: 16px;
+}
+
+/* lineup class and keyframes */
+.lineUp {
+  animation: 2s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+    text-shadow: 0px 5px 25px rgba(250, 97, 250, 0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+    text-shadow: 0px 5px 25px rgba(250, 97, 250, 0.5);
+  }
+}

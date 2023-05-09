@@ -1,0 +1,40 @@
+  .TodoCounter {
+    background-color: #0A155A;
+    height: auto;
+    width: calc(100% - 62px);
+    box-shadow: 0px 0px 15px 0px rgba(10, 21, 90, 0.6);
+    border-radius: 20px;
+    margin: 0 auto 24px;
+    padding-bottom: 15px;
+  }
+
+  .TodoCounter span:nth-child(1) {
+    display: block;
+    font-size: 16px;
+    color: #6f85c0; /*#46598c*/
+    padding: 15px 0px 0px;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .TodoCounter span:nth-child(2) {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 0px 15px;
+    margin: 10px 20px 0px 20px;   /* top | right | bottom | left */
+  }
+
+  .bar {
+    width: calc(100% - 40px);
+    height: 8px;
+    background-color: #6f85c0;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .progress {
+    height: 100%;
+    background-color: #d103fc;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px rgba(250, 97, 250, 0.5);
+  }

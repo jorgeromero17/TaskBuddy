@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TaskBuddy/static/css/main.c4eb5b1d.css",
+    "main.js": "/TaskBuddy/static/js/main.31e59df5.js",
+    "static/media/imagen.png": "/TaskBuddy/static/media/imagen.a7160345acccd88d8959.png",
+    "index.html": "/TaskBuddy/index.html",
+    "main.c4eb5b1d.css.map": "/TaskBuddy/static/css/main.c4eb5b1d.css.map",
+    "main.31e59df5.js.map": "/TaskBuddy/static/js/main.31e59df5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4eb5b1d.css",
+    "static/js/main.31e59df5.js"
+  ]
+}

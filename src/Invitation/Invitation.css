@@ -1,6 +1,6 @@
 /* clear background */
 h3 {
-  color: #d103fc;
+  color: #0A155A;
   text-align: center;
   padding: 16px;
   margin: 0;
@@ -22,11 +22,11 @@ h3 {
   50% {
     opacity: 1;
     transform: translateY(0%);
-    text-shadow: 0px 5px 25px rgba(250, 97, 250, 0.5);
+    text-shadow: 0px 5px 25px rgba(10, 21, 80, 0.5);
   }
   100% {
     opacity: 1;
     transform: translateY(0%);
-    text-shadow: 0px 5px 25px rgba(250, 97, 250, 0.5);
+    text-shadow: 0px 5px 25px rgba(10, 21, 80, 0.5);
   }
 }

@@ -11,8 +11,6 @@ function TodoForm(){
       if(newTodoValue.length>1){
         addTodo(newTodoValue);
         setOpenModal(false);
-      }else{
-        
       }
     }
 
@@ -26,15 +24,15 @@ function TodoForm(){
 
     return(
       <form className="TodoFormMobile" onSubmit={onSubmit}>
-        <label className="TodoFormMobile-label">Escribe una nueva tarea</label>
-        <textarea className='TodoForm-textareaMobile'
+        <label >Add a new task</label>
+        <textarea
           value={newTodoValue}
           onChange={onChange}
-          placeholder="Estudiar Matemáticas"
+          placeholder="Learn to read minds"
         />
         <div className="TodoForm-buttonContainer">
-          <button type="button" className="TodoForm-button Todoform-button-cancel" onClick={onCancel}>Cancelar</button>
-          <button type="submit" className="TodoForm-button Todoform-button-add">Añadir</button>
+          <button type="button" className="TodoForm-button Todoform-button-cancel" onClick={onCancel}>Cancel</button>
+          <button type="submit" className="TodoForm-button Todoform-button-add">Add</button>
         </div>
       </form>
     )

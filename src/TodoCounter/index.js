@@ -6,13 +6,13 @@ function TodoCounter() {
 
   const {completedTodos,totalTodos} = React.useContext(TodoContext);
 
-  const progressPercent = Math.round(completedTodos / totalTodos * 100);
+  const progressPercent = totalTodos > 0 ? Math.round(completedTodos / totalTodos * 100) : 0;
 
   return (
     <>
     <div className="TodoCounter">
-      <span>Has completado</span>
-      <span>{completedTodos} / {totalTodos} tareas</span>
+      <span>You have completed</span>
+      <span>{completedTodos} / {totalTodos} Tasks</span>
       <div className="bar">
         <div className="progress" style={{width: `${progressPercent}%`}}></div>
       </div>

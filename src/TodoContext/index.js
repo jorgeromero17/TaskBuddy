@@ -15,6 +15,7 @@ function TodoProvider({children}) {
   const totalTodos = todos.length;
 
   const searchedTodos = todos.filter( todo => todo.text.toLowerCase().includes(searchValue) );
+  const multipleTodosExist = todos.length > 0 ? true : false;
 
   const addTodo = (text) => {
     const newTodos = [...todos];
@@ -53,6 +54,7 @@ function TodoProvider({children}) {
         openModal,
         setOpenModal,
         addTodo,
+        multipleTodosExist,
         }}>
         {children}
     </TodoContext.Provider>

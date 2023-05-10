@@ -1,9 +1,11 @@
 .TodoSearch {
   display: block;
-  background: #2c4694;
+  /* background: #2c4694; */
+  /* background: #4F74FF; */
+  background: #3559d8;
   border-radius: 20px;
   border: none;
-  height: 50px;
+  height: 60px;
   width: calc(100% - 62px);
   margin: 0 auto;
   font-size: 18px;
@@ -11,7 +13,8 @@
   font-family: 'Montserrat';
   font-weight: 400;
   color: #fff;
-  box-shadow: inset 0px 0px 25px 8px rgba(10, 21, 90, 0.6);
+  /* box-shadow: inset 0px 0px 25px 8px rgba(10, 21, 90, 0.6); */
+  box-shadow: inset 0px 0px 25px 8px rgba(34, 61, 160, 0.6);
 }
   
 .TodoSearch::placeholder {

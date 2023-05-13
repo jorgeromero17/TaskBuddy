@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/TaskBuddy/static/css/main.c4eb5b1d.css",
-    "main.js": "/TaskBuddy/static/js/main.a31d2ba7.js",
+    "main.js": "/TaskBuddy/static/js/main.b9c2a134.js",
     "static/media/imagen.png": "/TaskBuddy/static/media/imagen.a7160345acccd88d8959.png",
+    "static/media/task_completed.mp3": "/TaskBuddy/static/media/task_completed.79bb9a9b59c231e269d9.mp3",
     "index.html": "/TaskBuddy/index.html",
     "main.c4eb5b1d.css.map": "/TaskBuddy/static/css/main.c4eb5b1d.css.map",
-    "main.a31d2ba7.js.map": "/TaskBuddy/static/js/main.a31d2ba7.js.map"
+    "main.b9c2a134.js.map": "/TaskBuddy/static/js/main.b9c2a134.js.map"
   },
   "entrypoints": [
     "static/css/main.c4eb5b1d.css",
-    "static/js/main.a31d2ba7.js"
+    "static/js/main.b9c2a134.js"
   ]
 }
